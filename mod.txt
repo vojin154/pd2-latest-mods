@@ -1,0 +1,22 @@
+{
+	"name" : "Latest Mods",
+	"description" : "Shows the latest mods, that are on top of ModWorkshops page, but ingame.",
+	"author" : "vojin154",
+	"contact" : "vojin154 (Discord)",
+	"version" : "1.0",
+	"updates": [
+		{
+			"identifier": "latest_mods",
+			"host": {
+					"meta": "https://raw.githubusercontent.com/vojin154/pd2-latest-mods/main/meta.json"
+				}
+        	}
+	],
+	"hooks" : [
+		
+		{
+			"hook_id": "lib/managers/menumanager",
+			"script_path": "mod.lua"
+		}
+	]
+}
