@@ -3,7 +3,7 @@
 	"description" : "Shows the latest mods, that are on top of ModWorkshops page, but ingame.",
 	"author" : "vojin154",
 	"contact" : "vojin154 (Discord)",
-	"version" : "1.0",
+	"version" : "1.1",
 	"updates": [
 		{
 			"identifier": "latest_mods",
